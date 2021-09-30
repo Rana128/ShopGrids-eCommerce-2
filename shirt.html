@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ShopGrids eCommerce</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- top header of starts -->
+    <section class="top_header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-10 col-lg-4 m-auto">
+                    <div class="select">
+                        <ul>
+                            <li>
+                                <div class="select_position">
+                                    <select>
+                                        <option value="0">$ USD</option>
+                                        <option value="1">€ EURO</option>
+                                        <option value="2">$ CAD</option>
+                                        <option value="3">₹ INR</option>
+                                        <option value="4">¥ CNY</option>
+                                        <option value="5">৳ BDT</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="select_position">
+                                    <select>
+                                        <option value="0">English</option>
+                                        <option value="1">Español</option>
+                                        <option value="2">Filipino</option>
+                                        <option value="3">Français</option>
+                                        <option value="4">العربية</option>
+                                        <option value="5">हिन्दी</option>
+                                        <option value="6">বাংলা</option>
+                                    </select>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top_menu">
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top_sign">
+                        <ul>
+                            <li><a href="#">Hello</a></li>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="top_middle py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-10 m-auto text-center mb-4">
+                    <div class="logo_part">
+                        <img src="img/logo/logo.svg" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top_form">
+                        <form action="#">
+                            <input type="text" placeholder="Search" required>
+                            <button type="submit" class="btn btn_Search">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="top_hotline">
+                        <h3>Hotline:</h3>
+                        <ul>
+                            <li><i class="fas fa-phone-alt"></i></li>
+                            <li>(+100) 123 456 7890</li>
+                            <div class="top_heart">
+                                <li><i class="far fa-heart"></i></li>
+                                <li><i class="fas fa-shopping-cart"></i></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main menu of starts-->
+    <section class="main_menu">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-2 col-lg-2 col-2 m-auto">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                  <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+              </div>
+                <div class="col-md-7">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid">
+                          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-tabs">
+                              <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Page
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                                  <li><a class="dropdown-item" href="#">Faq</a></li>
+                                  <li><a class="dropdown-item" href="#">Login</a></li>
+                                  <li><a class="dropdown-item" href="#">Register</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Shop
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                                  <li><a class="dropdown-item" href="man.html">Man's product</a></li>
+                                  <li><a class="dropdown-item" href="#">Woman's product</a></li>
+                                  <li><a class="dropdown-item" href="#">sunglass</a></li>
+                                  <li><a class="dropdown-item" href="#">Computers & Tablets</a></li>
+                                  <li><a class="dropdown-item" href="#">Video Games</a></li>
+                                  <li><a class="dropdown-item" href="#">Televisions</a></li>
+                                  <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Electronics
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <li><a class="dropdown-item" href="#">Digital Cameras</a></li>
+                                  <li><a class="dropdown-item">Camcorders</a></li>
+                                  <li><a class="dropdown-item" href="#">Camera Drones</a></li>
+                                  <li><a class="dropdown-item" href="#">Smart Watches</a></li>
+                                  <li><a class="dropdown-item" href="#">Microphones</a></li>
+                                  <li><a class="dropdown-item" href="#">Chargers</a></li>
+                                  <li><a class="dropdown-item" href="#">Batteries</a></li>
+                                  <li><a class="dropdown-item" href="#">MP3 Players</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-md-3">
+                  <div class="top_social">
+                    <ul>
+                      <li>Follow Us:</li>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="dropdown mt-3">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0 nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Page
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                    <li><a class="dropdown-item" href="#">Faq</a></li>
+                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><a class="dropdown-item" href="#">Register</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Shop Grid</a></li>
+                    <li><a class="dropdown-item"  href="man.html">Man's product</a></li>
+                    <li><a class="dropdown-item" href="#">Woman's product</a></li>
+                    <li><a class="dropdown-item" href="#">sunglass</a></li>
+                    <li><a class="dropdown-item" href="#">Computers & Tablets</a></li>
+                    <li><a class="dropdown-item" href="#">Video Games</a></li>
+                    <li><a class="dropdown-item" href="#">Televisions</a></li>
+                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Electronics
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Digital Cameras</a></li>
+                    <li><a class="dropdown-item">Camcorders</a></li>
+                    <li><a class="dropdown-item" href="#">Camera Drones</a></li>
+                    <li><a class="dropdown-item" href="#">Smart Watches</a></li>
+                    <li><a class="dropdown-item" href="#">Microphones</a></li>
+                    <li><a class="dropdown-item" href="#">Chargers</a></li>
+                    <li><a class="dropdown-item" href="#">Batteries</a></li>
+                    <li><a class="dropdown-item" href="#">MP3 Players</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+      
+
+    <!-- starts of cart section -->
+    <section class="cart_section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="cart_product">
+                          
+                          <div id="mainCarousel" class="carousel mb-4 w-10/12 max-w-xl mx-auto">
+                            <div class="carousel__slide">
+                              <div class="panzoom">
+                                <img class="panzoom__content" src="img/shirt/Shirt-1 (49).jpg" />
+                              </div>
+                            </div>
+                            <div class="carousel__slide">
+                              <div class="panzoom">
+                                <img class="panzoom__content" src="img/shirt/3.jpg" />
+                              </div>
+                            </div>
+                            <div class="carousel__slide">
+                              <div class="panzoom">
+                                <img class="panzoom__content" src="img/shirt/1.jpg" />
+                              </div>
+                            </div>
+                            <div class="carousel__slide">
+                                <div class="panzoom">
+                                  <img class="panzoom__content" src="img/shirt/2.jpg" />
+                                </div>
+                              </div>
+                              <div class="carousel__slide">
+                                <div class="panzoom">
+                                  <img class="panzoom__content" src="img/shirt/Shirt-1 (44).jpg" />
+                                </div>
+                              </div>
+                          </div>
+                          
+                          <div id="thumbCarousel" class="carousel">
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="img/shirt/Shirt-1 (45).jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="img/shirt/Shirt-1 (45).jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                              <img class="panzoom__content" src="img/shirt/Shirt-1 (51).jpg" />
+                            </div>
+                            <div class="carousel__slide">
+                                <img class="panzoom__content" src="img/shirt/Shirt-1 (51).jpg" />
+                              </div>
+                              <div class="carousel__slide">
+                                <img class="panzoom__content" src="img/shirt/Shirt-1 (50).jpg" />
+                              </div>
+                              <div class="carousel__slide">
+                                <img class="panzoom__content" src="img/shirt/Shirt-1 (50).jpg" />
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="stock">
+                                <ul>
+                                    <li class="ship">Ready to Ship</li>
+                                    <li>In Stock</li>
+                                    <li>Fast Dispatch</li>
+                                </ul>
+                            </div>
+                            <p class="para">Amazon outdoor sport men sportswear tracksuit men 2 piece set hoodie sets men</p>
+                            
+                            <div class="star">
+                                <ul>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star"></i></li>
+                                    <li><i class="fas fa-star-half"></i></li>
+                                    <li>3.33 Reviews</li>
+                                </ul>
+                            </div>
+                                <div class="select">
+                                    <select name="" id="">
+                                        <option value="">Colour</option>
+                                        <option value="">Black</option>
+                                        <option value="">White</option>
+                                        <option value="">Red</option>
+                                        <option value=""> Blue</option>
+                                    </select>
+                                    <select class="option">
+                                        <option value="">Size</option>
+                                        <option value="">S</option>
+                                        <option value="">M</option>
+                                        <option value="">L</option>
+                                        <option value=""> XL</option>
+                                        <option value="">2 XL</option>
+                                        <option value="">3 XL</option>
+                                    </select>
+                                </div>
+                            <p class="para">BDT 2,568.09 OFF Order more than BDT 42,801.45 Get Coupon</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="order">
+                               <ul>
+                                   <li> <a href="#" class="Start">Start Order</a></li>
+                                   <li><a href="#" class="Supplier">Contact Supplier</a></li>
+                                   <li><a href="#"><i class="fas fa-shopping-cart"></i>Add to Cart</a></li>
+                               </ul>
+                                 <p>On-time delivery rate 96.6%</p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="cart_img py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="cart_shadow">
+                        <div class="cart_price">
+                            <a href="shirt.html"><img src="img/shirt/Shirt-1 (50).jpg" class="img-fluid" alt="">
+                            </a>
+                            <div class="cart_before">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-eye-slash"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img_text cart_top">
+                            <p>Men's 100% Cotton  Pique Polo Shirts</p>
+                            <h6>Price : $45.00 - $80.00</h6>
+                            <span>20 pieces (MOQ)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cart_shadow">
+                        <div class="cart_price">
+                            <a href="shirt.html"><img src="img/shirt/Shirt-1 (51).jpg" class="img-fluid" alt="">
+                            </a>
+                            <div class="cart_before">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-eye-slash"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img_text cart_top">
+                            <p>Men's 100% Cotton  Pique Polo Shirts</p>
+                            <h6>Price : $45.00 - $80.00</h6>
+                            <span>20 pieces (MOQ)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cart_shadow">
+                        <div class="cart_price">
+                            <a href="shirt.html"><img src="img/shirt/Shirt-1 (45).jpg" class="img-fluid" alt="">
+                            </a>
+                            <div class="cart_before">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-eye-slash"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img_text cart_top">
+                            <p>Men's 100% Cotton  Pique Polo Shirts</p>
+                            <h6>Price : $45.00 - $80.00</h6>
+                            <span>20 pieces (MOQ)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="cart_shadow">
+                        <div class="cart_price">
+                            <a href="shirt.html"><img src="img/shirt/Shirt-1 (48).jpg" class="img-fluid" alt="">
+                            </a>
+                            <div class="cart_before">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-eye-slash"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img_text cart_top">
+                            <p>Men's 100% Cotton  Pique Polo Shirts</p>
+                            <h6>Price : $45.00 - $80.00</h6>
+                            <span>20 pieces (MOQ)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+          <!-- Start Shipping Info -->
+          <section class="shipping_section py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 text-center">
+                  <div class="shipping_hover">
+                      <i class="fas fa-truck"></i>
+                    <div class="media_body">
+                      <h5>Free Shipping</h5>
+                      <p>On order over $99</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 text-center">
+                  <div class="shipping_hover">
+                    <i class="fas fa-headset"></i>
+                    <div class="media_body">
+                      <h5>24/7 Support.</h5>
+                      <p>Live Chat Or Call.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 text-center">
+                  <div class="shipping_hover">
+                    <i class="fab fa-cc-visa"></i>
+                    <div class="media_body">
+                      <h5>Online Payment.</h5>
+                      <p>Secure Payment Services.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 text-center">
+                  <div class="shipping_hover">
+                    <i class="fas fa-sync-alt"></i>
+                    <div class="media_body">
+                      <h5>Easy Return.</h5>
+                      <p>Hassle Free Shopping.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+<!-- Start Footer Area -->
+          <footer class="footer_section">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2 col-10 m-auto">
+                  <div class="footer_logo">
+                    <img src="img/logo/white-logo.svg" class="img-fluid" alt="">
+                  </div>
+                </div>
+                <div class="col-md-5 text-center">
+                  <div class="footer_text">
+                    <h4>Subscribe to our Newsletter</h4>
+                    <p>Get all the latest information, Sales and Offers.</p>
+                  </div>
+                </div>
+                <div class="col-md-5 col-10 m-auto">
+                  <div class="newsletter_form">
+                    <form action="#">
+                        <input name="EMAIL" placeholder="Email address here..." type="email">
+                        <button type="submit" class="btn btn_subscribe">Subscribe</button>
+                    </form>
+                </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-3 col-10 m-auto">
+                  <div class="footer_middle">
+                    <h5>Get In Touch With Us</h5>
+                    <span class="Touch"></span>
+                    <p> <b>Phone:</b> +1 (900) 33 169 7720</p>
+                    <ul>
+                      <li><span>Monday-Friday: </span> <br> 9.00 am - 8.00 pm</li>
+                      <li><span>Saturday: </span> <br> 10.00 am - 6.00 pm</li>
+                  </ul>
+                   <a href="#">support@shopgrids.com</a>
+                  </div>
+                </div>
+                <div class="col-md-3 col-10 m-auto">
+                  <div class="single_footer">
+                      <h5>Our Mobile App</h5>
+                      <span class="Touch"></span>
+                      <ul>
+                          <li>
+                              <a href="#">
+                                <i class="fab fa-apple"></i>
+                                  <span class="big_title">App Store</span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#">
+                                <i class="fab fa-google-play"></i>
+                                  <span class="big_title">Google Play</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-3 col-10 m-auto">
+                <div class="Information">
+                  <h5>Information</h5>
+                  <span class="Touch"></span>
+                  <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">FAQs Page</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 col-10 m-auto">
+                <div class="Departments">
+                  <h5>Shop Departments</h5>
+                  <span class="Touch"></span>
+                  <ul>
+                    <li><a href="#">Computers & Accessories</a></li>
+                    <li><a href="#">Smartphones & Tablets</a></li>
+                    <li><a href="#">Man's product</a></li>
+                    <li><a href="#">Woman's product</a></li>
+                    <li><a href="#">Headphones</a></li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+              <hr>
+              <div class="row text-center">
+                <div class="col-md-4">
+                  <div class="footer_bottom">
+                    <div class="payment_cart">
+                      <h5>We Accept:</h5>
+                      <img src="img/footer/credit-cards-footer.png" class="img-fluid" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="copyright">
+                    <p>Designed and Developed by <a href="#">RaNa</a> </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="top_social social">
+                    <ul>
+                      <li>Follow Us:</li>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+
+      $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            loop:true,
+            margin:10,
+            nav:false,
+            dots:true,
+            items: 1,
+            autoplay:true,
+            smartspeed: 2000,
+            autoplayTimeout:3000,
+        });
+      });
+      const mainCarousel = new Carousel(document.querySelector("#mainCarousel"), {
+  Dots: false,
+  on: {
+    createSlide: (carousel, slide) => {
+      slide.Panzoom = new Panzoom(slide.$el.querySelector(".panzoom"), {
+        panOnlyZoomed: true,
+        resizeParent: true,
+      });
+    },
+    deleteSlide: (carousel, slide) => {
+      if (slide.Panzoom) {
+        slide.Panzoom.destroy();
+        slide.Panzoom = null;
+      }
+    },
+  },
+});
+
+const thumbCarousel = new Carousel(document.querySelector("#thumbCarousel"), {
+  Sync: {
+    target: mainCarousel,
+    friction: 0,
+  },
+  Dots: false,
+  Navigation: false,
+  center: true,
+  infinite: false,
+});
+    </script>
+  </body>
+</html>

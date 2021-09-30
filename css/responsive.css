@@ -1,0 +1,338 @@
+
+@media(max-width:768px){
+    .btn-primary {
+        display: inherit;
+    }
+    .navbar-light .navbar-toggler{
+        display: none;
+    }
+}
+@media(max-width:576px) and (min-width:320px){
+    .carousel-item h3 {
+        font-size: 13px;
+    }
+    .carousel-item h3 span {
+        font-size: 13px;
+    }
+    .btn_shop {
+        padding: 6px 10px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .carousel-item img {
+        margin-bottom: 20px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .carousel-caption h2 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .carousel-caption {
+        bottom: 25%;
+    }
+    .carousel-caption h2 span {
+        display: none;
+    }
+    .next_img h2 {
+        font-size: 16px;
+    }
+    .next_img h2 span {
+        font-size: 13px;
+    }
+    .next_img h3 {
+        font-size: 16px;
+    }
+    .next_two h2 {
+        font-size: 17px;
+    }
+    .next_two p {
+        font-size: 13px;
+    }
+    .btn_button {
+        padding: 4px 6px;
+        font-size: 14px;
+    }
+    .trending_section h1 {
+        font-size: 36px;
+    }
+    .trending_section p {
+        font-size: 14px;
+    }
+    .trending_hover {
+        margin-bottom: 15px;
+    }
+    .call-action .content h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .banner_content h2 {
+        font-size: 19px;
+        margin: 0;
+    }
+    .banner_content p {
+        display: none;
+    }
+    .banner_content {
+        top: 64px;
+        left: 107px;
+    }
+    .btn_View {
+        padding: 3px 7px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .img img {
+        margin-bottom: 15px;
+    }
+    .shipping_hover {
+        margin-bottom: 15px;
+    }
+    .footer_text h4 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .btn_subscribe {
+        padding: 10px 14px;
+        margin-top: 15px;
+    }
+    .single_footer h5 {
+        margin-top: 26px;
+    }
+    .payment_cart h5 {
+        display: none;
+    }
+    .copyright p {
+        margin: 0;
+        padding: 10px 0;
+    }
+    .social ul li {
+        margin-right: 10px;
+    }
+    .top_social ul li a i {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .select select {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+    .img_text {
+        margin-bottom: 15px;
+    }
+    .carousel .carousel__button.is-next, .carousel .carousel__button.is-prev  {
+        display: none;
+    }
+}
+@media(max-width:768px) and (min-width:576px){
+    .top_menu ul li {
+        margin-right: 10px;
+    }
+    .top_sign ul li {
+        margin-left: 22px;
+    }
+    .top_menu ul li a {
+        font-size: 13px;
+    }
+    .top_social ul {
+        justify-content:center;
+        margin-left: -140px;
+    }
+    .top_social ul li {
+        margin-right: 10px;
+    }
+    .top_hotline ul {
+        margin-left: -36px;
+    }
+    .banner_content h2 {
+        font-size: 18px;
+        color: red;
+    }
+    .banner_content p {
+        font-size: 13px;
+        margin: 0;
+    }
+    .banner_content {
+        top: 85px;
+    }
+    .btn_View {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+    .media_body h5 {
+        font-size: 16px;
+    }
+    .media_body p {
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .footer_text h4 {
+        font-size: 20px;
+    }
+    .footer_text p {
+        margin: 0;
+        font-size: 15px;
+        color: #fff;
+    }
+    .btn_subscribe {
+        margin-top: 15px;
+    }
+    .copyright p {
+        display: none;
+    }
+    .payment_cart h5 {
+        display: none;
+    }
+    .trending_hover {
+        margin-bottom: 15px;
+    }
+    .title a {
+        font-size: 14px;
+    }
+    .review ul li {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .img img {
+        margin-bottom: 15px;
+    }
+    .stock ul li {
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    .order .Start {
+        padding: 6px 26px;
+        font-size: 14px;
+    }
+    .order .Supplier {
+        font-size: 14px;
+        padding: 6px 6px;
+    }
+    .star ul li {
+        margin-right: 4px;
+    }
+    .select select {
+        padding: 4px 8px;
+        font-size: 14px;
+    }
+}
+@media(max-width:992px) and (min-width:768px){
+    .carousel-caption {
+        bottom: 7%;
+    }
+    .carousel-caption h2 {
+        line-height: 27px;
+        font-size: 23px;
+    }
+    .carousel-caption h2 span {
+        font-size: 12px;
+        color: red;
+    }
+    .btn_shop {
+        padding: 6px 12px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .top_hotline ul li i {
+        width: 31px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .social ul li {
+        margin-left: 25px;
+    }
+    .review ul li {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .trending_hover {
+        margin-bottom: 15px;
+    }
+    .banner_content h2 {
+        font-size: 20px;
+    }
+    .banner_content p {
+        font-size: 14px;
+        padding: 0px;
+    }
+    .btn_View {
+        padding: 6px 12px;
+    }
+    .banner_content {
+        top: 86px;
+    }
+    .media_body h5 {
+        font-size: 18px;
+    }
+    .media_body p {
+        font-size: 13px;
+        margin: 0;
+    }
+    .footer_text h4 {
+        font-size: 21px;
+    }
+    .btn_subscribe {
+        padding: 10px 20px;
+        margin-top: 15px;
+    }
+    .single_footer ul li {
+        margin-bottom: 28px;
+        padding: 9px 12px;
+    }
+    .footer_middle h5, .single_footer h5, .Information h5, .Departments h5 {
+        font-size: 16px;
+    }
+    .Departments ul li {
+        margin: 8px 0;
+    }
+    .Information ul li {
+        margin: 18px 0;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+    .payment_cart h5 {
+        display: none;
+    }
+    .stock ul .ship {
+        padding: 2px 2px;
+    }
+    .stock ul li {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+    .order .Start {
+        padding: 6px 20px;
+        font-weight: normal;
+    }
+    .order .Supplier {
+        padding: 6px 4px;
+    }
+    .star ul li {
+        margin-right: 4px;
+    }
+    .select select {
+        padding: 5px 5px;
+        font-size: 15px;
+        font-weight: normal;
+    }
+}
+@media(max-width:576px) and (min-width:445px){
+    .select {
+        margin-left: 70px;
+    }
+    .carousel-caption h2 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .top_social ul li a i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
